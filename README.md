@@ -4,13 +4,17 @@
 
 A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
 1. **INNER JOIN** <br/>
-   Returns records that have matching values in both tables.
-2. **LEFT JOIN** <br/>
-   Returns all records from the left table and the matched records from the right table.
-3. **RIGHT JOIN**<br/>
-   Returns all records from the right table and the matched records from the left table.
-4. **FULL JOIN** <br/>
-   Returns all records when there is a match in either left or right table.
+   Returns records that have matching values in both tables. <br/><br />
+   ![INNER JOIN](vite-project/src/assets/inner.png)
+3. **LEFT JOIN** <br/>
+   Returns all records from the left table and the matched records from the right table.<br/><br />
+    ![INNER JOIN](vite-project/src/assets/left.png)
+5. **RIGHT JOIN**<br/>
+   Returns all records from the right table and the matched records from the left table.<br/><br />
+    ![INNER JOIN](vite-project/src/assets/right.png)
+7. **FULL JOIN** <br/>
+   Returns all records when there is a match in either left or right table.<br/><br />
+    ![INNER JOIN](vite-project/src/assets/full.png)
 
    --
 <h2>ACID Properties</h2>
@@ -43,17 +47,17 @@ Normalization is the process of organizing data in a database to eliminate redun
 <h3>Types of Normalization:</h3>
 
 1. **First Normal Form (1NF)** <br/>
-A relation is in 1NF if it contains only atomic (indivisible) values.
-
+A relation is in 1NF if it contains only atomic (indivisible) values.<br/><br />
+![INNER JOIN](vite-project/src/assets/1NF.png)
 2. **Second Normal Form (2NF))** <br/>
- A relation is in 2NF if it is in 1NF and all non-key attributes are fully dependent on the primary key.
-
+ A relation is in 2NF if it is in 1NF and all non-key attributes are fully dependent on the primary key.<br/><br />
+![INNER JOIN](vite-project/src/assets/2NF.png)
 3. **Third Normal Form (3NF)** <br/>
-A relation is in 3NF if it is in 2NF and there is no transitive dependency.
-
+A relation is in 3NF if it is in 2NF and there is no transitive dependency.<br/><br />
+![INNER JOIN](vite-project/src/assets/3NF.png)
 4. **Boyce-Codd Normal Form (BCNF)** <br/>
-A stronger version of 3NF, ensuring that every determinant is a candidate key.
-
+A stronger version of 3NF, ensuring that every determinant is a candidate key.<br/><br />
+![INNER JOIN](vite-project/src/assets/boyce.png)
 5. **Fourth Normal Form (4NF)** <br/>
-A relation is in 4NF if it is in BCNF and has no multi-valued dependencies.
-   
+A relation is in 4NF if it is in BCNF and has no multi-valued dependencies.<br/><br />
+![INNER JOIN](vite-project/src/assets/4NF.png)
